@@ -15,6 +15,14 @@ class PokeCell: UICollectionViewCell {
     
     var pokemon: Pokemon!
     
+    required init?(coder aDecoder: NSCoder) {
+        super.init(coder: aDecoder)
+        
+        self.layer.cornerRadius = 15.0
+        
+    }
+    
+    
     func configureCell(pokemon: Pokemon) {
         self.pokemon = pokemon
         
