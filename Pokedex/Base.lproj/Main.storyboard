@@ -114,6 +114,7 @@
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="5Pj-Ff-eoa"/>
+                                <exclude reference="hP7-XX-bHj"/>
                             </mask>
                         </variation>
                     </view>
